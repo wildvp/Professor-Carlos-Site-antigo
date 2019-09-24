@@ -182,10 +182,10 @@
 	$Mailer->SMTPDebug = 3;//Debug
 	$Mailer->isSMTP();//Tipo de envio
 	$Mailer->Host = "email-ssl.com.br"; //Servidor de email locaweb 
-	//imap.dradilmaolimpio.com.br //pop.dradilmaolimpio.com.br //mail.dradilmaolimpio.com.br
+	//imap.professorcarlosmuniz.com.br //pop.professorcarlosmuniz.com.br //mail.professorcarlosmuniz.com.br
 	$Mailer->SMTPAuth = "true";//Metodo de envio - se cx postal existe no servidor usar true
 	$Mailer->Username = "disparador@professorcarlosmuniz.com.br";
-	$Mailer->Password = "ch@345350DBA";
+	$Mailer->Password = "";
 	$Mailer->SMTPSecure = "ssl";//Tipo de segurança
 	$Mailer->Port = 465; //ou 587
 	$Mailer->FromName = "($nome)";
