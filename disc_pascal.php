@@ -16,7 +16,7 @@
                         
                         
                         <div id="titulo_contedo">                       	
-						Redes de Computadores
+						Lógica de Programação
                		  	</div>
                         
                         
@@ -29,31 +29,16 @@
                         
                         <div id="texto_links_conteudo">
                         <br />
-                        <strong><em>Redes de Computadores</em></strong><br /><br>
+                        <strong><em>Linguagem Pascal</em></strong><br /><br>
                           
                               
                         	<div id="texto_links_conteudo_coluna">
                             
-                            	<a href="disc_redes/Aula 01 - Introducao.pdf" target="_blank">01 - Introducao</a><br>
-                    			<a href="disc_redes/Aula 02 - Rede sem fio.pdf" target="_blank">02 - Rede sem fios</a><br>
-                    			<a href="disc_redes/Aula 03 - Wifi.pdf" target="_blank">03 - Wifi</a><br>
-                    			<a href="disc_redes/Aula 04 - Bluetooth.pdf" target="_blank">04 - Bluetooth</a><br>
-                    			<a href="disc_redes/Aula 05 - Wap.pdf" target="_blank">05 - Wap</a><br>
-                    			<a href="disc_redes/Aula 06 - Internet.pdf" target="_blank">06 - Internet</a><br>
-                    			<a href="disc_redes/Aula 07 - Cliente-Servidor.pdf" target="_blank">07 - Cliente-Servidor</a><br>
-                    			<a href="disc_redes/Aula 08 - Roteador.pdf" target="_blank">08 - Roteador</a><br>
-                    			<a href="disc_redes/Aula 09 - Switch.pdf" target="_blank">09 - Switch</a><br>
-                    			<a href="disc_redes/Aula 10 - Servidor.pdf" target="_blank">10 - Servidor</a><br>
-                    			<a href="disc_redes/Aula 11 - Terminal.pdf" target="_blank">11 - Terminal</a><br>
-                    			<a href="disc_redes/Aula 12 - Protocolos.pdf" target="_blank">12 - Protocolos</a><br>
-                    			<a href="disc_redes/Aula 13 - Protocolos - TCP.pdf" target="_blank">13 - Protocolos - TCP</a><br>
-                    			<a href="disc_redes/Aula 14 - Protocolos - IP.pdf" target="_blank">14 - Protocolos - IP</a><br>
-                    			<a href="disc_redes/Aula 15 - Protocolos - UDP.pdf" target="_blank">15 - Protocolos - UDP</a><br>
-                    			<a href="disc_redes/Aula 16 - Protocolos - TCP IP.pdf">16 - Protocolos - TCP IP</a><br>
-                    			<a href="disc_redes/Aula 17 - Protocolos - NetBEUI.pdf" target="_blank">17 - Protocolos - NetBEUI</a><br>
-                    			<a href="disc_redes/Aula 18 - Protocolos - NetBIOS.pdf" target="_blank">18 - Protocolos - NetBIOS</a><br>
-                    			<a href="disc_redes/Aula 19 - Protocolos - NetFTP.pdf" target="_blank">19 - Protocolos - FTP</a>
-                      
+                            	<a href="disc_algoritimos/LinguagemPascal/01_Introducao_ao_Pascal.pdf" target="_blank">01 - Introdução ao Pascal</a><br>
+                        		<a href="disc_algoritimos/LinguagemPascal/02_Estrutura_de_Um_Programa_Pascal.pdf" target="_blank">02 - Estrutura de um programa em Pascal</a><br>
+                        		<a href="disc_algoritimos/LinguagemPascal/03_Variaveis_E_Constantes.pdf" target="_blank">03 - Variáveis e Constantes</a><br>
+                        		<a href="disc_algoritimos/LinguagemPascal/04_Estruturas_de_Decisao.pdf" target="_blank">04 - Estruturas de Decisão</a><br>
+                        		<a href="disc_algoritimos/LinguagemPascal/05_Estruturas_de_Repeticao.pdf" target="_blank">05 - Estruturas de Repetição</a><br>
                             
                             </div>
                             
@@ -62,7 +47,7 @@
                         
                             
                       </div>
-                    <!-- Links úteis -->
+                     <!-- Links úteis -->
                       
 
                     
@@ -91,7 +76,7 @@
                             
                         </div>
                         
-                        <!-- Fim Links úteis -->    
+                        <!-- Fim Links úteis -->   
                       
                         
                      

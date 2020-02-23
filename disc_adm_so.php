@@ -16,7 +16,7 @@
                         
                         
                         <div id="titulo_contedo">                       	
-						Redes de Computadores
+						Administração de Sistemas Operacionais (Windows Server)
                		  	</div>
                         
                         
@@ -29,31 +29,34 @@
                         
                         <div id="texto_links_conteudo">
                         <br />
-                        <strong><em>Redes de Computadores</em></strong><br /><br>
+                        <strong><em>Administração de Sistemas Operacionais</em></strong><br /><br>
                           
                               
                         	<div id="texto_links_conteudo_coluna">
                             
-                            	<a href="disc_redes/Aula 01 - Introducao.pdf" target="_blank">01 - Introducao</a><br>
-                    			<a href="disc_redes/Aula 02 - Rede sem fio.pdf" target="_blank">02 - Rede sem fios</a><br>
-                    			<a href="disc_redes/Aula 03 - Wifi.pdf" target="_blank">03 - Wifi</a><br>
-                    			<a href="disc_redes/Aula 04 - Bluetooth.pdf" target="_blank">04 - Bluetooth</a><br>
-                    			<a href="disc_redes/Aula 05 - Wap.pdf" target="_blank">05 - Wap</a><br>
-                    			<a href="disc_redes/Aula 06 - Internet.pdf" target="_blank">06 - Internet</a><br>
-                    			<a href="disc_redes/Aula 07 - Cliente-Servidor.pdf" target="_blank">07 - Cliente-Servidor</a><br>
-                    			<a href="disc_redes/Aula 08 - Roteador.pdf" target="_blank">08 - Roteador</a><br>
-                    			<a href="disc_redes/Aula 09 - Switch.pdf" target="_blank">09 - Switch</a><br>
-                    			<a href="disc_redes/Aula 10 - Servidor.pdf" target="_blank">10 - Servidor</a><br>
-                    			<a href="disc_redes/Aula 11 - Terminal.pdf" target="_blank">11 - Terminal</a><br>
-                    			<a href="disc_redes/Aula 12 - Protocolos.pdf" target="_blank">12 - Protocolos</a><br>
-                    			<a href="disc_redes/Aula 13 - Protocolos - TCP.pdf" target="_blank">13 - Protocolos - TCP</a><br>
-                    			<a href="disc_redes/Aula 14 - Protocolos - IP.pdf" target="_blank">14 - Protocolos - IP</a><br>
-                    			<a href="disc_redes/Aula 15 - Protocolos - UDP.pdf" target="_blank">15 - Protocolos - UDP</a><br>
-                    			<a href="disc_redes/Aula 16 - Protocolos - TCP IP.pdf">16 - Protocolos - TCP IP</a><br>
-                    			<a href="disc_redes/Aula 17 - Protocolos - NetBEUI.pdf" target="_blank">17 - Protocolos - NetBEUI</a><br>
-                    			<a href="disc_redes/Aula 18 - Protocolos - NetBIOS.pdf" target="_blank">18 - Protocolos - NetBIOS</a><br>
-                    			<a href="disc_redes/Aula 19 - Protocolos - NetFTP.pdf" target="_blank">19 - Protocolos - FTP</a>
-                      
+                            	                              
+                        		                         
+                            
+                            
+                            	<a href="disc_admsistop/Aula01.pdf" target="_blank">01 - História do Windows</a><br>
+        						<a href="disc_admsistop/Aula02.pdf" target="_blank">02 - Fundamentos sobre o Windows Server</a><br>
+				        		<a href="disc_admsistop/Aula03.pdf" target="_blank">03 - Instalação do Windows Server</a><br>
+				        		<a href="disc_admsistop/Aula04.pdf" target="_blank">04 - Fundamentos de Active Directure</a><br>
+								<a href="disc_admsistop/Aula05.pdf" target="_blank">05 - Cotas de Disco</a><br>
+    							<a href="disc_admsistop/Aula06.pdf" target="_blank">06 - Grupos e Contas de Usuário</a><br>
+								<a href="disc_admsistop/Aula07.pdf" target="_blank">07 - Scripts de Logon</a><br>
+								<a href="disc_admsistop/Aula08.pdf" target="_blank">08 - Adicionando Estacoes Clientes</a><br>
+								<a href="disc_admsistop/Aula09.pdf" target="_blank">09 - Diretivas de Grupo GPO</a><br>
+								<a href="disc_admsistop/Aula10.pdf" target="_blank">10 - Serviços de resolução de nomes (DNS e WINS)</a><br>
+								<a href="disc_admsistop/Aula11.pdf" target="_blank">11 - Serviços de Web e FTP</a><br>
+								<a href="disc_admsistop/Aula12.pdf" target="_blank">12 - Serviços de impressao</a><br>
+								<a href="disc_admsistop/Aula13.pdf" target="_blank">13 - Serv de Configde endereços DHCP</a><br>
+								<a href="disc_admsistop/Aula14.pdf" target="_blank">14 - Serviços de acesso remoto (TELNET e Terminal Services)</a><br>
+								<a href="disc_admsistop/Aula15.pdf" target="_blank">15 - Sistema de arquivos distribuídos (DFS)</a><br>
+								<a href="disc_admsistop/Aula16.pdf" target="_blank">16 - Serviço de Backup</a><br>
+								<a href="disc_admsistop/Aula17.pdf" target="_blank">17 - Auditoria de eventos</a><br>
+								<a href="disc_admsistop/Aula18.pdf" target="_blank">18 - Serviço NAT</a><br>
+								<a href="disc_admsistop/Aula19.pdf" target="_blank">19 - Roteamento</a>
                             
                             </div>
                             
@@ -62,7 +65,8 @@
                         
                             
                       </div>
-                    <!-- Links úteis -->
+                        
+                     <!-- Links úteis -->
                       
 
                     
@@ -91,8 +95,9 @@
                             
                         </div>
                         
-                        <!-- Fim Links úteis -->    
-                      
+                        <!-- Fim Links úteis --> 
+                        
+                        
                         
                      
                     </div>

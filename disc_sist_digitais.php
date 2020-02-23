@@ -16,7 +16,7 @@
                         
                         
                         <div id="titulo_contedo">                       	
-						Redes de Computadores
+						Sistemas Digitais
                		  	</div>
                         
                         
@@ -29,31 +29,27 @@
                         
                         <div id="texto_links_conteudo">
                         <br />
-                        <strong><em>Redes de Computadores</em></strong><br /><br>
+                        <strong><em>Sistemas Digitais</em></strong><br /><br>
                           
                               
                         	<div id="texto_links_conteudo_coluna">
                             
-                            	<a href="disc_redes/Aula 01 - Introducao.pdf" target="_blank">01 - Introducao</a><br>
-                    			<a href="disc_redes/Aula 02 - Rede sem fio.pdf" target="_blank">02 - Rede sem fios</a><br>
-                    			<a href="disc_redes/Aula 03 - Wifi.pdf" target="_blank">03 - Wifi</a><br>
-                    			<a href="disc_redes/Aula 04 - Bluetooth.pdf" target="_blank">04 - Bluetooth</a><br>
-                    			<a href="disc_redes/Aula 05 - Wap.pdf" target="_blank">05 - Wap</a><br>
-                    			<a href="disc_redes/Aula 06 - Internet.pdf" target="_blank">06 - Internet</a><br>
-                    			<a href="disc_redes/Aula 07 - Cliente-Servidor.pdf" target="_blank">07 - Cliente-Servidor</a><br>
-                    			<a href="disc_redes/Aula 08 - Roteador.pdf" target="_blank">08 - Roteador</a><br>
-                    			<a href="disc_redes/Aula 09 - Switch.pdf" target="_blank">09 - Switch</a><br>
-                    			<a href="disc_redes/Aula 10 - Servidor.pdf" target="_blank">10 - Servidor</a><br>
-                    			<a href="disc_redes/Aula 11 - Terminal.pdf" target="_blank">11 - Terminal</a><br>
-                    			<a href="disc_redes/Aula 12 - Protocolos.pdf" target="_blank">12 - Protocolos</a><br>
-                    			<a href="disc_redes/Aula 13 - Protocolos - TCP.pdf" target="_blank">13 - Protocolos - TCP</a><br>
-                    			<a href="disc_redes/Aula 14 - Protocolos - IP.pdf" target="_blank">14 - Protocolos - IP</a><br>
-                    			<a href="disc_redes/Aula 15 - Protocolos - UDP.pdf" target="_blank">15 - Protocolos - UDP</a><br>
-                    			<a href="disc_redes/Aula 16 - Protocolos - TCP IP.pdf">16 - Protocolos - TCP IP</a><br>
-                    			<a href="disc_redes/Aula 17 - Protocolos - NetBEUI.pdf" target="_blank">17 - Protocolos - NetBEUI</a><br>
-                    			<a href="disc_redes/Aula 18 - Protocolos - NetBIOS.pdf" target="_blank">18 - Protocolos - NetBIOS</a><br>
-                    			<a href="disc_redes/Aula 19 - Protocolos - NetFTP.pdf" target="_blank">19 - Protocolos - FTP</a>
-                      
+                            	<a href="disc_sist_digitais/Aula01-SistemasdeNumeracaoeCodigos.pdf">01 - Sistemas de Numeração e Códigos</a><br>
+                            	<a href="disc_sist_digitais/Aula02-Algebra_Portas_CircuitosLogicos.pdf">02 - Álgebra Booleana</a><br>
+                            	<a href="disc_sist_digitais/Aula03-PortasLogicas.pdf">03 - Portas Lógicas</a><br>
+                            	<a href="disc_sist_digitais/Aula04-CircuitosCombinacionais.pdf">04 - Circuitos Combinacionais</a><br>
+                            	<a href="disc_sist_digitais/Aula05-CircuitosSequenciaisFlipFlop.pdf">05 - Circuitos Sequenciais Flip Flops</a><br>
+                            	<a href="disc_sist_digitais/Aula06-ContadoreseRegistradores.pdf">06 - Contadores e Registradores</a><br>
+                            	<a href="disc_sist_digitais/Aula07-MaquinasdeEstadosFinitos.pdf">07 - Maquinas de Estados</a><br>
+                           		<a href="disc_sist_digitais/Aula08-ProjetoDeSistemasSequenciais.pdf">08 - Projeto de Sistemas Sequenciais</a><br>
+                            	<a href="disc_sist_digitais/Aula09-AritmeticaDigitaSomaeSubtracaoBinaria.pdf">09 - Aritmetica Digital</a><br>
+                            	<a href="disc_sist_digitais/Aula10-CircuitoFamiliaLogicaseCircuitosIntegrados.pdf">10 - Circuitos Familias Lógicas e Circuitos Integrados</a><br>
+                            	<a href="disc_sist_digitais/Aula11-InterfacecomoMundoAnalogico.pdf">11 - Interfaces com o Mundo Alalógico</a><br>
+                            	<a href="disc_sist_digitais/Aula12-SubsistemasDeMemoria.pdf">12 - Subsistemas de Memória</a><br>
+                            	<a href="disc_sist_digitais/Aula13-DispositivosdeLogicaProgramavel.pdf">13 - Dispositivos de Lógica Programável</a><br>
+                            	<a href="disc_sist_digitais/Aula14-IntroducaoasLinguagensdeDescricaodeHardware.pdf">14 - Introdução às Linguagens de Descrição de Hardware</a>
+                        
+                        
                             
                             </div>
                             
@@ -62,7 +58,7 @@
                         
                             
                       </div>
-                    <!-- Links úteis -->
+                       <!-- Links úteis -->
                       
 
                     
@@ -91,7 +87,7 @@
                             
                         </div>
                         
-                        <!-- Fim Links úteis -->    
+                        <!-- Fim Links úteis --> 
                       
                         
                      

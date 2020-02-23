@@ -1,41 +1,43 @@
-<?php include_once "topo.php";?>
-                    
-                                       
-                    
-            </div>
-            
-            <!--CORPO DA PÁGINA-->
-            
-            <div class="container">
-            
-            	<div class="row">
-                	
-                
-                	<div class="col-12 text-center my-5 bg-light">
-                    
-                    	<h1 class="display-4">Obrigado por sua visita!!!</h1>
-                    	<p align="justify"> Desfrute de todos os recursos oferecidos por este portal seja você meu aluno, ex-aluno, amigo ou um internauta. Fique a vontade para entrar em contato sempre quando quiser pois respondo a todos as mensagens. Procuro manter sempre o material gratuito, essa é a minha idéia!!! Portanto, para que eu possa continuar, não deixe de se inscrever no <a href="https://www.youtube.com/channel/UCx0zHh-g65yg0hzS1Fw3x5w" target="_blank">canal do you tube</a> e curtir a minha <a href="https://www.facebook.com/ProfessorCarlosMuniz/" target="_blank">página no facebook</a>. Espero que possa ajudar a encontrar o que procura!!! Tenho como objetivo dividir um pouco do meu conhecimento com você, seja ou não aluno dos cursos ou instituições que leciono. Espero que goste do conteúdo e que volte sempre!!!
-Ahh!!! E não esqueça de conferir os cursos em vídeos em videoaulas!!! </p>
-					</div>
-                    
-                
-                	
-            
-            
-           </div>
-            
-            
-        <!--Colunas--> 
-            
-      
-		<div class="row">
-  			<div class="col-4"></div>            
-            		
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Professor Carlos Muniz</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+    <script src="js/jquery.cycle.all.js" type="text/javascript"></script>
+    <script src="js/jquery.cycle2.js" type="text/javascript"></script>
+    <script src="js/jquery.cycle.lite.js" type="text/javascript"></script>
+    <script src="js/jQuery-Mask-Plugin/src/jquery.mask.js" type="text/javascript"></script>
+    
+    
+</head>
+
+<body>
+<div id="site">
+	<div id="menu_midia">
+
+		<!--Topo do site -->
+        
+
+		<div id="topo">
+        </div>
+        
+        <div id="question_midia">
+        Qual mídia esta usando para acessar o portal???<br />
+        Clique para direcioná-lo à melhor versão.
+  	</div>
+        
+        
+        <div id="menu_midia_left"> <a href="inicial.php" target="_parent">
+       	<img src="imagens/menu_midia_notebook_pc.fw.png" width="512" height="900" border="0" /></a> 
+        </div>
+        
+  		<div id="menu_midia_right"> <a href="https://professorcarlosmuniz.wordpress.com/" target="_parent"><img src="imagens/menu_midia_celular_tablet.fw.png" width="512" height="900" /></a>
+        </div>
+        
+       		
              
-            <div class="col-8"></div>
-            
-         </div>
-         
-         <!-- FIM CORPO DA PAGINA-->
-         
-<?php include_once "footer.php";?>
+	</div>
+</div>

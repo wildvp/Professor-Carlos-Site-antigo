@@ -16,12 +16,12 @@
                         
                         
                         <div id="titulo_contedo">                       	
-						Redes de Computadores
-               		  	</div>
+						Acesso restrito somente a usuários autorizados
+                   		</div>
                         
                         
                         <div id="figura_1">
-	      		      		<img src="imagens/disciplinas.jpg" width="171" height="200" />
+	      		      		<img src="imagens/disciplinas.jpg" width="200" height="178" />
                       	</div>
                         
                         <div id="texto_links">
@@ -29,40 +29,50 @@
                         
                         <div id="texto_links_conteudo">
                         <br />
-                        <strong><em>Redes de Computadores</em></strong><br /><br>
-                          
-                              
-                        	<div id="texto_links_conteudo_coluna">
-                            
-                            	<a href="disc_redes/Aula 01 - Introducao.pdf" target="_blank">01 - Introducao</a><br>
-                    			<a href="disc_redes/Aula 02 - Rede sem fio.pdf" target="_blank">02 - Rede sem fios</a><br>
-                    			<a href="disc_redes/Aula 03 - Wifi.pdf" target="_blank">03 - Wifi</a><br>
-                    			<a href="disc_redes/Aula 04 - Bluetooth.pdf" target="_blank">04 - Bluetooth</a><br>
-                    			<a href="disc_redes/Aula 05 - Wap.pdf" target="_blank">05 - Wap</a><br>
-                    			<a href="disc_redes/Aula 06 - Internet.pdf" target="_blank">06 - Internet</a><br>
-                    			<a href="disc_redes/Aula 07 - Cliente-Servidor.pdf" target="_blank">07 - Cliente-Servidor</a><br>
-                    			<a href="disc_redes/Aula 08 - Roteador.pdf" target="_blank">08 - Roteador</a><br>
-                    			<a href="disc_redes/Aula 09 - Switch.pdf" target="_blank">09 - Switch</a><br>
-                    			<a href="disc_redes/Aula 10 - Servidor.pdf" target="_blank">10 - Servidor</a><br>
-                    			<a href="disc_redes/Aula 11 - Terminal.pdf" target="_blank">11 - Terminal</a><br>
-                    			<a href="disc_redes/Aula 12 - Protocolos.pdf" target="_blank">12 - Protocolos</a><br>
-                    			<a href="disc_redes/Aula 13 - Protocolos - TCP.pdf" target="_blank">13 - Protocolos - TCP</a><br>
-                    			<a href="disc_redes/Aula 14 - Protocolos - IP.pdf" target="_blank">14 - Protocolos - IP</a><br>
-                    			<a href="disc_redes/Aula 15 - Protocolos - UDP.pdf" target="_blank">15 - Protocolos - UDP</a><br>
-                    			<a href="disc_redes/Aula 16 - Protocolos - TCP IP.pdf">16 - Protocolos - TCP IP</a><br>
-                    			<a href="disc_redes/Aula 17 - Protocolos - NetBEUI.pdf" target="_blank">17 - Protocolos - NetBEUI</a><br>
-                    			<a href="disc_redes/Aula 18 - Protocolos - NetBIOS.pdf" target="_blank">18 - Protocolos - NetBIOS</a><br>
-                    			<a href="disc_redes/Aula 19 - Protocolos - NetFTP.pdf" target="_blank">19 - Protocolos - FTP</a>
-                      
-                            
-                            </div>
-                            
- 
+                        <strong><em>Area Restrita</em></strong><br /><br>
+                          <form>
+                         <fieldset>
+                        <legend> ACESSO RESTRITO SOMENTE A USUARIOS AUTORIZADOS </legend>
+                        
+                        
+                        	<table width="600" border="0">
+  								<tbody><tr>
+    								<td>&nbsp;</td>
+    								<td>&nbsp;</td>
+  								</tr>
+  								<tr>
+    								<td>E-mail:</td>
+    								<td><input name="email" type="text" size="40" maxlength="40" placeholder="Informe seu usuário (e-mail):"></td>
+  								</tr>
+  								<tr>
+    								<td>Senha:</td>
+    								<td><input name="senha" type="password" size="20" maxlength="20" placeholder="Informe a senha"></td>
+  								</tr>
+                                <tr>
+    								<td></td>
+    								<td>Esqueci a senha</td>
+  								</tr>
+							</tbody></table><br /><br />
+
+                        
+                        	                
+           	    			<input type="submit" name="submit" value="Login">
+                        
+                        </fieldset>
+                        
+					
+                    </form>
+                        
+                        
+                        
+                        
+                                             
                         
                         
                             
                       </div>
-                    <!-- Links úteis -->
+                        
+                      <!-- Links úteis -->
                       
 
                     
@@ -91,8 +101,7 @@
                             
                         </div>
                         
-                        <!-- Fim Links úteis -->    
-                      
+                        <!-- Fim Links úteis -->   
                         
                      
                     </div>

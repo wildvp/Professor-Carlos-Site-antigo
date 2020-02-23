@@ -1,108 +1,118 @@
-<?php include_once "topo.php";?>
-                    
-                                       
-                    
-            </div>
-            
-            <!--CORPO DA PÁGINA-->
-            
-            <div class="container">
-            
-            	<div class="row">
+﻿<?php include_once "topo.php"; ?>
+<?php include_once "data_connection.php";?>
+        
+        <!--Conteudo do site -->
+        
+        <div id="content">
+        	<div id="areasite">
+                   
+            	<div id="material">
                 
-               	  <div class="col-12">
+                	<div id="conteudo">
                     
-                    	<h1>Lógica de Programação</h1>
-                        <p><a href="https://www.youtube.com/channel/UCx0zHh-g65yg0hzS1Fw3x5w/playlists" target="_parent">Playlists no Canal You Tube</a></p>
+                    	                       
+                        <div id="titulo_contedo_contorno">
+                        </div>
                         
-                        <!-- INICIO DO SCROOLSPY -->
                         
-                        <!-- MENU SCROOLSPY-->
+                        <div id="titulo_contedo">                       	
+						Lógica de Programação
+               		  	</div>
                         
-                        <div class="row">
-                        	
-                            <div class="col-2">
-                            	
-                            	<nav id="programacao" class="navbar navbar-light bg-light">
-                                
-                                	<nav class="nav nav-pills flex-column">
-                                    
-                                    	<a class="nav-link" href="#programacao">Lógica de Programação</a>
-                                                                            
-                                    </nav>
-                                
-                                </nav>
+                        
+                        <div id="figura_1">
+	      		      		<img src="imagens/disciplinas.jpg" width="171" height="200" />
+                      	</div>
+                        
+                        <div id="texto_links">
+                        </div>
+                        
+                        <div id="texto_links_conteudo">
+                        <br />
+                        <strong><em>Lógica de Programação</em></strong><br><br>
+                          
+                              
+                        	<div id="texto_links_conteudo_coluna">
+                            
+                            	<br>
+                        
+                                                        
+                        		<a href="disc_algoritimos/Aula01_port_estruturado.pdf" target="_blank">Apresentação de Portugues Estruturado</a><br><br>
+                        
+                        	<strong><em>Linguagem Pascal</em></strong><br><br>
+                        
+                        		<a href="disc_pascal.php" target="_parent">Curso de Pascal</a><br><br>
+                        
+                        	<strong><em>Ferramentas para treinamento C e C++</em></strong><br><br>
+                        
+                        		<a href="http://www.bloodshed.net/dev/devcpp.html" target="_blank">Dev C++ - Ferramenta para Treinamento Prático</a><br>
+                        		<a href="https:&quot;https://www.youtube.com/watch?v=XvXF8D9WoHY&quot;" target="_blank">Usando o Dev C++ (Video You tube)</a><br><br>	
+                        
+                        	<strong><em>Linguagem C</em></strong><br><br>
+                        
+                        		<a href="disc_c.php" target="_parent">Curso de C</a><br> <br>
+                            
+                        	<strong><em>Linguagem C++</em></strong><br><br>
+                        
+                        		<a href="disc_cplusplusl.php" target="_parent">Curso de C++</a><br> <br>
+                            
+                        	<strong><em>Linguagem Java</em></strong><br><br>    
+                        
+                        		<a href="disc_java.php" target="_parent">Curso de Java</a><br>
                             
                             </div>
                             
-                            <!-- AREATEXTO SCROOLSPY-->
+ 
+                        
+                        
                             
-                            <div class="col-9">
+                      </div>
+                        
+                     <!-- Links úteis -->
+                      
+
+                    
+                    	<div id="titulo_contedo_contorno">
+                        </div>
+                        
+                        
+                        <div id="titulo_contedo">                       	
+						Links úteis
+               		  	</div>
+                        
+                        <div id="texto_links_uteis">
+                        </div>
+                        
+                        <div id="links_uteis">
+                        
+                        	<a href="https://www.java.com/pt_BR/download/" target="_blank"><img src="imagens/lk_java.jpg" width="90" height="90" /></a>
+                            <a href="http://www.jcreator.org/download.htm" target="_blank"><img src="imagens/lk_jcreator.png" width="90" height="90" /></a>
+                  			<a href="https://netbeans.apache.org/download/index.html" target="_blank"><img src="imagens/lk_netbeans.png" width="94" height="90" /></a>
+                            <a href="https://www.bloodshed.net/devpascal.html" target="_blank"><img src="imagens/lk_devpascal1.jpg" width="226" height="90" /></a> 
+                            <a href="https://sourceforge.net/projects/orwelldevcpp/" target="_blank"><img src="imagens/lk_devcplusplus.jpg" width="90" height="90" /></a>
+                            <a href="https://www.teamviewer.com/pt-br/download/windows/?pid=google.teamviewer_ex.s.pt&gclid=Cj0KCQjwla7nBRDxARIsADll0kBCKmTxGcRQr2eRAOPeZwaPoCloMjL34gRkyvlRj0eyJsZsVlp6RmgaAiF5EALw_wcB" target="_blank"><img src="imagens/lk_teamviewer.jpg" width="91" height="90" /></a>
+                  			<a href="https://sourceforge.net/projects/wampserver/" target="_blank"><img src="imagens/lk_wamp.jpg" width="90" height="90" /></a>
+                  			<a href="https://get.adobe.com/br/reader/" target="_blank"><img src="imagens/lk_acrobat.jpg" width="120" height="90" /></a>
                             
-                           	  <div data-spy="scrool" data-target="programacao" data-offset="0" class="scroolspyVideoOffice">
-                              
-                              
-<!--CURSO DE WINDOWS 10***************************************************************************************************************************************-->
-                                
-                               	<h4 id="programacao">Lógica de Programação</h4>
-                                    <p>
-   
-                            			<a href="disc_algoritimos/Aula01_port_estruturado.pdf" target="_blank">Apresentação de Portugues Estruturado</a><br><br>
-                        
-                        				<strong><em>Linguagem Pascal</em></strong><br><br>
-                        
-                        				<a href="disc_pascal.php" target="_parent">Curso de Pascal</a><br><br>
-                        
-                        				<strong><em>Ferramentas para treinamento C e C++</em></strong><br><br>
-                        
-                        				<a href="http://www.bloodshed.net/dev/devcpp.html" target="_blank">Dev C++ - Ferramenta para Treinamento Prático</a><br>
-                        				<a href="https:&quot;https://www.youtube.com/watch?v=XvXF8D9WoHY&quot;" target="_blank">Usando o Dev C++ (Video You tube)</a><br><br>	
-                        
-                        				<strong><em>Linguagem C</em></strong><br><br>
-                        
-                        				<a href="disc_c.php" target="_parent">Curso de C</a><br> <br>
-                            
-                        				<strong><em>Linguagem C++</em></strong><br><br>
-                        
-                        				<a href="disc_cplusplusl.php" target="_parent">Curso de C++</a><br> <br>
-                            
-                        				<strong><em>Linguagem Java</em></strong><br><br>    
-                        
-                        				<a href="disc_java.php" target="_parent">Curso de Java</a><br
-                           			</p>
-                                
-<!--CURSO DE WORD***************************************************************************************************************************************-->
-                                    
-                               
-                                    
-                                
-                                                          
-                            </div>
                             
                         </div>
                         
-                        <!-- FIM DO SCROOLSPY -->
+                        <!-- Fim Links úteis --> 
                         
-                        
-                        
+                     
                     </div>
                     
+           	    	
                 </div>
-           
-          	</div>
-            
-            
-        <!--Colunas--> 
-            
-      
-		<div class="row">
-  			<div class="col-4"></div>            
-            		
-             
-            <div class="col-8"></div>
-            
-         </div>
-         
-         <!-- FIM CORPO DA PAGINA-->
-         
-<?php include_once "footer.php";?>
+                
+                
+                
+                
+          </div>
+        </div>
+        
+        
+        
+        <!--Conteudo do site -->
+        
+<?php include_once "footer.php"; ?>

@@ -29,11 +29,11 @@
                         
                         <div id="texto_links_conteudo">
                         <br />
-                        <strong><em>Entre em contato para informações sobre serviços, dúvidas e etc.</em></strong><br /><br>
-                          <form name="form_contato" id="form_contato" action="send_mail.php" method="post">
+                        <strong><em>Cadastro de alunos (Formulário inoperante - Banco de dados em desenvolvimento)</em></strong><br /><br>
+                          <form name="form_cadastro" id="form_cadastro" action="data_prepare_insert.php" method="post">
                          		<fieldset>
-                        		<legend> FORMULÁRIO DE CONTATO </legend>
-                        
+                        		<legend> FORMULÁRIO DE CADASTRO DE ALUNOS </legend>
+                        		
                         
                         			<table width="730" border="0">
   										<tbody>
@@ -45,31 +45,64 @@
     											<td>Nome:</td>
     											<td><input name="nome" type="text" size="50" maxlength="50" placeholder="Digite seu nome:"></td>
   											</tr>
-                                            
-                                             <tr>
-    											<td>E-Mail:</td>
-    											<td><input name="email" type="text" size="50" maxlength="15" placeholder="Digite seu email:"></td>
-  											</tr>
-                                            
-                                            <tr>
-    											<td>Assunto:</td>
-    											<td><input name="assunto" type="text" size="50" maxlength="15" placeholder="Digite o assunto:"></td>
-  											</tr>
-                                            
-                                            <tr>
-    											<td>Celular:</td>
-    											<td><input name="celular" type="text" size="50" maxlength="15" placeholder="Digite seu celular (opcional):"></td>
-  											</tr>
-                                            
                                             <tr>
     											<td>Telefone:</td>
-    											<td><input name="telefone" type="text" size="50" maxlength="15" placeholder="Digite seu telefone (opcional):"></td>
+    											<td><input name="telefone" type="text" size="50" maxlength="20" placeholder="Digite seu telefone(opcional):"><script>$("#telefone").mask("(00) 0000-0009");</script></td>
   											</tr>
                                             <tr>
-    											<td>Mensagem:</td>
-    											<td><textarea name="mensagem" cols="50" rows="20" placeholder="Digite sua Mensagem"></textarea></td>
+    											<td>Celular:</td>
+    											<td><input name="ddd" type="text" size="50" maxlength="20" placeholder="Digite seu celular (opcional):"><script>$("#celular").mask("(00) 00000-0009");</script></td></td>
   											</tr>
+                                            <tr>
+    											<td>Cidade:</td>
+    											<td><input name="cidade" type="text" size="20" maxlength="50" placeholder="Digite sua cidade:"></td>
+  											</tr>
+                                            <tr>
+    											<td>Estado:</td>
+    											<td><select name="uf">
+                                                
+                                                		<option value"" selected="selected">Selecione seu Estado</option>
+                                                		<option value"AC">Acre</option>
+                                                        <option value"AL">Alagoas</option>
+                                                        <option value"AM">Amazonas</option>
+                                                        <option value"AP">Amapá</option>
+                                                        <option value"BA">Bahia</option>
+                                                        <option value"CE">Ceará</option>
+                                                        <option value"DF">Distrito Federal</option>
+                                                        <option value"ES">Espírito Santo</option>
+                                                        <option value"GO">Goiás</option>
+                                                        <option value"MA">Maranhão</option>
+                                                        <option value"MT">Mato Grosso</option>
+                                                        <option value"MS">Mato Grosso do Sul</option>
+                                                        <option value"MG">Minas Gerais</option>
+                                                        <option value"PA">Pará</option>
+                                                        <option value"PB">Paraíba</option>
+                                                        <option value"PR">Paraná</option>
+                                                        <option value"PE">Pernambuco</option>
+                                                        <option value"PI">Piauí</option>
+                                                        <option value"RJ" >Rio de Janeiro</option>
+                                                        <option value"RN">Rio Grande do Norte</option>
+                                                        <option value"RS">Rio Grande do Sul</option>
+                                                        <option value"RO">Rondônia</option>
+                                                        <option value"RR">Roraima</option>
+                                                        <option value"SC">Santa Catarina</option>
+                                                        <option value"SP">São Paulo</option>
+                                                        <option value"SE">Sergipe</option>
+                                                        <option value"TO">Tocantins</option>
+                                                        
+                                                	</select>
+                                                </td>
+  											</tr>
+                                            <tr>
+    											<td>E-mail:</td>
+    											<td><input name="email" type="text" size="50" maxlength="50" placeholder="Digite seu email:"></td>
+  											</tr>
+                                           
+  											
                                             
+                                            
+                                            
+										</tbody>
                             		</table><br /><br />
 
                         
@@ -138,81 +171,3 @@
         <!--Conteudo do site -->
         
 <?php include_once "footer.php"; ?>
-    
-    
-<?php include_once "footer.php";?>
-
-
-
-<?php
-
-/* 
-*******************************************************************************************************************************
-**********************************SCRIPT PARA ENVIO DO EMAIL A PARTIR DE UM FORMULÁRIO*****************************************
-*******************************************************************************************************************************
-*/
-
-
-?>
-
-
-<?php
-
-	//Recuperando dados do formulário
-	$GetPost = filter_input_array(INPUT_POST,FILTER_DEFAULT);
-	var_dump($GetPost);
-	
-	//Variaveis locais
-	$nome = $GetPost['nome'];
-	$telefone = $GetPost['telefone'];
-	$celular = $GetPost['celular'];
-	$email = $GetPost['email'];
-	$assunto = $GetPost['assunto'];
-	$mensagem = $GetPost['mensagem'];
-	
-	
-	//Incluir PHPMailer
-	//$Erro = true;
-	include_once 'PHPMailer/class.smtp.php';
-	include_once 'PHPMailer/class.phpmailer.php';
-	
-	//Enviando o email utilizando o PHPMailer
-	$Mailer = new PHPMailer;
-	$Mailer->Charset = "utf-8";//Tipo de Caractere
-	$Mailer->SMTPDebug = 3;//Debug
-	$Mailer->isSMTP();//Tipo de envio
-	$Mailer->Host = "email-ssl.com.br"; //Servidor de email locaweb 
-	//imap.dradilmaolimpio.com.br //pop.dradilmaolimpio.com.br //mail.dradilmaolimpio.com.br
-	$Mailer->SMTPAuth = "true";//Metodo de envio - se cx postal existe no servidor usar true
-	$Mailer->Username = "disparador@professorcarlosmuniz.com.br";
-	$Mailer->Password = "";
-	$Mailer->SMTPSecure = "ssl";//Tipo de segurança
-	$Mailer->Port = 465; //ou 587
-	$Mailer->FromName = "($nome)";
-	$Mailer->From = "disparador@professorcarlosmuniz.com.br";//De
-	$Mailer->addAddress("professorcarlosmuniz@gmail.com");//Destinatário
-	$Mailer->isHTML(true);//Sera enviado no formato HTML
-	$Mailer->Subject = "Do Portal - $nome - $assunto - ".date("d/m/Y")." - " .date("H:i"); //Assunto do e-mail
-	$Mailer->Body = "<strong>De: $nome<br>E-mail: $email<br>Telefone: $telefone<br>Celular: $celular<br>Assunto: $assunto</strong><br><br>$mensagem";
-	
-	
-	//Verificação
-	/*
-	if($Mailer->send())
-	{
-		$Erro = false;
-	}
-	var_dump($Erro);
-	*/
-	if($Mailer->send())
-	{
-		echo "<script>
-					confirma_envio();
-			</script>";
-	}
-	else
-	{
-		var_dump($Erro);
-	}
-
-?>

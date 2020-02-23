@@ -16,7 +16,7 @@
                         
                         
                         <div id="titulo_contedo">                       	
-						Redes de Computadores
+						Linguagem C++ 
                		  	</div>
                         
                         
@@ -29,30 +29,32 @@
                         
                         <div id="texto_links_conteudo">
                         <br />
-                        <strong><em>Redes de Computadores</em></strong><br /><br>
+                        <strong><em>Parte 1 - Lógica de Programação</em></strong><br /><br>
                           
                               
                         	<div id="texto_links_conteudo_coluna">
                             
-                            	<a href="disc_redes/Aula 01 - Introducao.pdf" target="_blank">01 - Introducao</a><br>
-                    			<a href="disc_redes/Aula 02 - Rede sem fio.pdf" target="_blank">02 - Rede sem fios</a><br>
-                    			<a href="disc_redes/Aula 03 - Wifi.pdf" target="_blank">03 - Wifi</a><br>
-                    			<a href="disc_redes/Aula 04 - Bluetooth.pdf" target="_blank">04 - Bluetooth</a><br>
-                    			<a href="disc_redes/Aula 05 - Wap.pdf" target="_blank">05 - Wap</a><br>
-                    			<a href="disc_redes/Aula 06 - Internet.pdf" target="_blank">06 - Internet</a><br>
-                    			<a href="disc_redes/Aula 07 - Cliente-Servidor.pdf" target="_blank">07 - Cliente-Servidor</a><br>
-                    			<a href="disc_redes/Aula 08 - Roteador.pdf" target="_blank">08 - Roteador</a><br>
-                    			<a href="disc_redes/Aula 09 - Switch.pdf" target="_blank">09 - Switch</a><br>
-                    			<a href="disc_redes/Aula 10 - Servidor.pdf" target="_blank">10 - Servidor</a><br>
-                    			<a href="disc_redes/Aula 11 - Terminal.pdf" target="_blank">11 - Terminal</a><br>
-                    			<a href="disc_redes/Aula 12 - Protocolos.pdf" target="_blank">12 - Protocolos</a><br>
-                    			<a href="disc_redes/Aula 13 - Protocolos - TCP.pdf" target="_blank">13 - Protocolos - TCP</a><br>
-                    			<a href="disc_redes/Aula 14 - Protocolos - IP.pdf" target="_blank">14 - Protocolos - IP</a><br>
-                    			<a href="disc_redes/Aula 15 - Protocolos - UDP.pdf" target="_blank">15 - Protocolos - UDP</a><br>
-                    			<a href="disc_redes/Aula 16 - Protocolos - TCP IP.pdf">16 - Protocolos - TCP IP</a><br>
-                    			<a href="disc_redes/Aula 17 - Protocolos - NetBEUI.pdf" target="_blank">17 - Protocolos - NetBEUI</a><br>
-                    			<a href="disc_redes/Aula 18 - Protocolos - NetBIOS.pdf" target="_blank">18 - Protocolos - NetBIOS</a><br>
-                    			<a href="disc_redes/Aula 19 - Protocolos - NetFTP.pdf" target="_blank">19 - Protocolos - FTP</a>
+                            	<a href="disc_algoritimos/LinguagemC++/CriandoumalgoritmoemDev C.pdf">Usando o Dev C++</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/1_Orientacao_a_Objetos.pdf">01 - Orientação a Objetos</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/2_Introducao_ao_C++.pdf">02 - Introdução ao C++</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/3_Variaveis.pdf">03 - Variáveis</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/4_Estruturas_de_Selecao_Decisao.pdf">04 - Estruturas de Seleção</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/5_Estruturas_de_Repeticao.pdf">05 - Estruturas de Repetição</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/6_Vetores.pdf">06 - Vetores</a><br><br>
+                            
+                        
+                        		<strong><em>Parte 2 - Programação Orientada a Objetos</em></strong><br><br>
+                        
+                        		
+                        		<a href="disc_algoritimos/LinguagemC++/7_Funcoes.pdf">07 - Funções</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/8_Classes_e_Objetos.pdf">08 - Classes e Objetos</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/9_Heranca.pdf">09 - Herança</a><br>
+                        		<a href="disc_algoritimos/LinguagemC++/10_Polimorfismo.pdf">10 - Polimorfismo</a><br><br>
+                        
+                        		Conteúdo também disponível em videoaulas.
+                        
+                        
+                        		Não deixe de se inscrever no <a href="https://www.youtube.com/channel/UCx0zHh-g65yg0hzS1Fw3x5w">Canal do You Tube</a> para ser avisado de novos cursos em videoaulas!!!!
                       
                             
                             </div>
@@ -62,7 +64,8 @@
                         
                             
                       </div>
-                    <!-- Links úteis -->
+                        
+                     <!-- Links úteis -->
                       
 
                     
@@ -91,8 +94,7 @@
                             
                         </div>
                         
-                        <!-- Fim Links úteis -->    
-                      
+                        <!-- Fim Links úteis --> 
                         
                      
                     </div>
